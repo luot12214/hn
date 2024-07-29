@@ -6,7 +6,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-build-mode = "magisk"
+build-mode = "module"
 excluded-patches = "'Custom branding name for YouTube' 'Custom branding icon for YouTube' 'Custom package name'"
 included-patches = ""
 version = "19.16.39"
@@ -19,5 +19,5 @@ patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "Youtube"
-build-mode = "magisk"
+build-mode = "module"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
